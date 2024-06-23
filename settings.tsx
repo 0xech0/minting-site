@@ -6,7 +6,7 @@ export const mintText = [
 ];
 
 //header image in the ui. replace with your own
-export const image = "https://avatars.githubusercontent.com/u/93528482?v=4";
+export const image = "https://raw.githubusercontent.com/0xech0/minting-site/main/_0015_1.png";
 
 //website title
-export const headerText = "MarkSackerberg's mint UI";
+export const headerText = "milady aura 3";

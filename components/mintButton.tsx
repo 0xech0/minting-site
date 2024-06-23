@@ -207,8 +207,7 @@ const mintClick = async (
       mintArgs,
       tables,
       latestBlockhash,
-      1_400_000,
-      buyBeer
+      1_400_000
     );
     const requiredCu = await getRequiredCU(umi, txForSimulation);
 
@@ -224,8 +223,7 @@ const mintClick = async (
         mintArgs,
         tables,
         latestBlockhash,
-        requiredCu,
-        buyBeer
+        requiredCu
       );
       console.log(transaction)
       mintTxs.push(transaction);
